@@ -1,0 +1,158 @@
+/* Reset some default styles */
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+
+        font-family: Arial, sans-serif;
+        background-image: url('BG.jpg'); /* Replace 'background.jpg' with your image file path */
+        background-size: cover; /* Adjust how the image covers the background */
+        background-repeat: no-repeat;
+        background-attachment: fixed; /* Keeps the background fixed while scrolling */
+        line-height: 1.6;
+        text-decoration-color: #f0f0f0;
+    }
+    
+    h1 {
+        font-size: 50px; /* You can change the size as needed */
+    }
+    p {
+        font-size: 35px; /* You can change the size as needed */
+        text-align: center;
+}
+    }
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Set the height of each section to 100vh */
+section {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f8f6f6;
+}
+
+
+.project {
+    margin-bottom: 2rem;
+}
+
+/* Add more CSS styling as needed */
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #333;
+    color: #fff;
+}
+/* Style for the "Project" button */
+.contact-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e5f508;
+    color: #1536ee;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    /* Style for the "Project" button */
+    text-align: center;
+    font-weight: bold;
+    line-height: 50px;
+
+}
+
+/* Blink effect on hover */
+.contact-button:hover {
+    animation: blink 0.5s infinite alternate; /* Apply the blink animation */
+}
+
+/* Center-align the button within the "About" section */
+#about {
+    text-align: center;
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Add some space between the paragraph and the button */
+}
+
+/* Keyframes for the blink animation */
+@keyframes blink {
+    0% {
+        background-color: #e4d508;
+        color: #2059f8;
+    }
+    100% {
+        background-color: #757070; /* Change background color */
+        color: #d1df11; /* Change text color */
+    }
+}
+/* Apply the yellow background to the contact form */
+form {
+    
+    padding: 20px;
+}
+
+/* Apply blue text color to labels and input elements */
+label {
+    color: rgb(225, 225, 228);
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    color: rgb(10, 10, 20);
+    background-color: white; /* Add a white background to input elements for better contrast */
+    padding: 10px;
+    border: 1px solid #ccc; /* Add a border for input elements */
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+/* Style the submit button */
+button[type="submit"] {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px; /* Astart;
+}
+
+/* Style the confirmation message */
+#confirmation-message {
+    background-color: yellow;
+    color: rgb(246, 246, 252);
+    padding: 10px;
+    margin-top: 10px;
+}
